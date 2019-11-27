@@ -1,63 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,800,800i&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    font-family: "Montserrat";
-    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
 }
-#header{
+#landing{
     width: 100%;
     height: 100vh;
-    background-image: url(./src/xfastcpu.jpg);
-    background-position: center;
+    background: url(./img/back.png);
     background-size: cover;
-    text-align: center;
-    color: white;
-    h1{
-        font-size: 5em;
-        padding-top: 30vh;
-    }
-    .h3{
-        font-size: 0.5em;
-    }
-}
-.nav-container{
-    background: #6189e0;
-    position: sticky;
-    padding: 0 50px;
-    top: 0;
-    overflow: hidden;
-    li{
-        list-style: none;
-        float: right;
-    }
-    li a{
-        text-decoration: none;
-        display: block;
+    background-position: center;
+    #content-landing{
+        color: white !important;
         text-align: center;
-        padding: 20px 15px;
-        color: white;
+        margin-top: 10%;
     }
-    li a:hover:not(.active){
-        background: #000b227c;
+    .btn{
+        margin-top: 9rem;
     }
-    .active{
-        background: #000b227c;
+    .btn-danger{
+        background-color: #68000C;
+        border-color: #fff;
     }
+    .display-1{
+        font-weight: 700;
+    }
+    
 }
-
-#specs{
-    width: 100%;
-    height: 100vh;
-    background: rgb(36, 36, 36);
-}
-#about{
-    width: 100%;
-    height: 100vh;
-    background: rgb(36, 36, 36);
-}
-#footer{
-    width: 100%;
-    height: 100vh;
-    background: rgb(36, 36, 36);
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
